@@ -1,0 +1,14 @@
+
+import random
+
+
+def element_search(list_1, number):
+    return (b in list_1)
+
+
+
+a = [1,2,3,4,5,6]
+b = int(input("Please insert an nnumber here: "))
+
+print(element_search(a,b))
+
