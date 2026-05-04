@@ -17,13 +17,8 @@ def hangman_game(word):
 
     for item in range(len(word)):
         word_temp.append("_")
-
     result_word_temp = "".join(word_temp)
-
-
     number_of_guesses = 6
-
-
     incorrect_guessed_letters=[]
 
     
