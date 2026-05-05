@@ -9,5 +9,5 @@ def check_win(list_1):
     ## All Vertical 
     ## Al Horizontal 
     # All Diagonal 
-    for item in list_1:
+    ##for item in list_1:
         
