@@ -15,10 +15,11 @@ for name, birthday in birthday_dict.items():
     month_name = calendar.month_name[int(month_num)]
     count_month_dict[month_name] += 1
 
-x = list(count_month_dict.keys())
+x = list(count_month_dict.keys()) ## must be in list format
 y = list(count_month_dict.values())
 
 p = figure(x_range=x)
 p.vbar(x=x, top=y, width=0.5)
 
 show(p)
+
